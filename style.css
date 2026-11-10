@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a00 , #3a443a)
+}
+
+.calculator{
+    border: 1px solid #717377;
+    border-radius: 15px;
+    background: transparent;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px #13151a;
+}
+input{
+    width: 350px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 0px 20px 0px #7b7473fc;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input::placeholder{
+    color: #717377;
+}
+
+button{
+    border: none;
+    width: 70px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 8px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: 0px 0px 20px 0px #4b4f56;
+    cursor: pointer;
+}
+.equalBtn{
+    background: #fb7c14;
+}
+.operatorBtn{
+    background: #fb7c14;
+}
+.acBtn{
+    background: #aea9a5;
+}
+.delBtn{
+    background: #aea9a5;
+}
+.percentBtn{
+    background: #aea9a5;
+}
